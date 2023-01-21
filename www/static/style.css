@@ -1,0 +1,7 @@
+section#hero {
+    min-height: auto
+}
+
+section#hero .hero-bottom-svg svg {
+    display: none;
+}
