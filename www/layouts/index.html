@@ -2,9 +2,13 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
+<!-- Custom Styles -->
+{{ if .Site.Params.customCSS }}
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/style.css">
+{{ end }}
 
 <!-- fontawesome -->
-<script defer src="{{ .Site.Params.staticPath }}/fontawesome-5/all-5.15.4.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 {{ end }}
 
 {{ define "title" }}
