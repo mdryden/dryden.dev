@@ -53,6 +53,7 @@ Menus:
 
 params:
   title: "Michael Dryden"
+  copyright: Michael Dryden
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/img/favicon-32x32.png"
@@ -141,7 +142,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    # image: "/img/dryden.dev-logo.png"
+    image: "/img/dryden.dev-logo.png"
     content: |-
       I am a full stack developer living in Brandon, Manitoba, Canada.  I have a passion for building software and I love to find ways to use my hobbies to build my skills.
 
