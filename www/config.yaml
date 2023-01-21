@@ -1,0 +1,346 @@
+baseURL: "./"
+languageCode: "en-us"
+title: "Michael Dryden"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  # main:
+  # - identifier: blog
+  #   name: Blog
+  #   title: Blog posts
+  #   url: /blogs
+  #   weight: 1
+  # - identifier: gallery
+  #   name: Gallery
+  #   title: Blog posts
+  #   url: /gallery
+  #   weight: 2
+  #Dropdown menu
+  # - identifier: dropdown
+  #   title: Example dropdown menu
+  #   name: Dropdown
+  #   weight: 3
+  # - identifier: dropdown1
+  #   title: example dropdown 1
+  #   name: example 1
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 1
+  # - identifier: dropdown2
+  #   title: example dropdown 2
+  #   name: example 2
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 2
+
+params:
+  title: "Michael Dryden"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/img/favicon-32x32.png"
+  customCSS: true
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: true
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandName: "dryden.dev" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    # intro: "Michael Dryden"
+    title: "Michael Dryden"
+    subtitle: "Father, husband, developer, tech enthusiast and avid sports fan"
+    content: "A passionate, professional full-stack developer. I use software to build my hobbies, and my hobbies build my software skills."
+    image: /img/headshot.jpg
+    button:
+      enable: true
+      name: "Resume"
+      url: "files/mdryden_resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/mdryden
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/michael-dryden-b66808227/
+        - icon: fab fa-mastodon
+          url: https://fosstodon.org/@mdryden
+        - icon: fab fa-facebook
+          url: https://facebook.com/michaeldryden
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    # image: "/img/dryden.dev-logo.png"
+    content: |-
+      I am a full stack developer living in Brandon, Manitoba, Canada.  I have a passion for building software and I love to find ways to use my hobbies to build my skills.
+
+      I am currently working at [Strive Business Solutions](https://www.strivebusiness.ca/) as a Software Architect.      
+
+      I run the only head to head fantasy football site for the Canadian Football League, used by a growing group of passionate CFL fans.
+    skills:
+      enable: true
+      title: "I'm currently working on projects that use the following technologies:"
+      items:
+        - "Go"
+        - "Vue"
+        - "Python"
+        - "Flutter"
+        - "C#"
+        - "Kubernetes"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Software Architect"
+        company: "Strive Business Solutions"
+        companyUrl: "https://www.strivebusiness.ca/"
+        date: "Feb 2022 - present"
+        featuredLink:
+          enable: true
+          name: "Empire (Flutter)"
+          url: "https://pub.dev/packages/empire"
+        info:
+          enable: false
+        content: |
+          I am currently working remotely as a Software Architect at [Strive Business Solutions](https://www.strivebusiness.ca/), based in Winnipeg, Manitoba. I am involved in a variety of projects, including a mobile app for the energy sector, a client portal for financial customers, and several open source libraries.
+
+          - Go, Python & C#
+          - Flutter
+          - Azure, Kubernetes and Dapr
+          - Architected and implemented a continuously deployed microservices application using GitHub Actions, Octopus Deploy and AKS
+
+      - job: "Software Development Manager"
+        company: "Rimmer Technology Partners"
+        companyUrl: "https://www.rimmertechpartners.com/"
+        date: "Sep 2018 - Feb 2022"
+        featuredLink:
+          enable: false
+          # url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          Senior developer and team leader building enterprise applications for a major AgriFoods business, and developing in-house SaaS applications.
+
+          - .Net desktop application
+          - Flutter mobile application
+          - Python, JavaScript and C# services in Google Cloud Platform
+          - Matured DevOps practices including implementation of CI/CD using GitHub Actions and Google Clodu Build
+
+      - job: "Software Developer"
+        company: "Custom Software Solutions"
+        companyUrl: "https://cssionline.com/"
+        date: "Oct 2007 - Aug 2018"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          # url: "https://example.com"
+        content: |
+          Project lead for a team building industry-leading insurance software.
+
+          - .Net SOAP service
+          - .Net MVC web application
+          - Introduced CI/CD to the software delivery process
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Microsoft Certification: Programming in C#"
+        school:
+          # name: "Microsoft"
+          url: ""
+        date: "2018"
+        featuredLink:
+          enable: true
+          name: "View Certification"
+          url: "https://www.credly.com/badges/1ff04c85-077e-4e96-9a0a-d843ea6b812c"
+        content: |-
+          Passing Exam 483: Programming in C# validates a candidate’s ability to manage program flow, create and use types, debug applications and implement security as well as implement data access.
+
+      - title: "Computer Programmer"
+        school:
+          name: "Fanshawe College"
+          url: "https://www.fanshawec.ca/"
+        date: "2004 - 2006"
+        content: |-
+          Attended three of four semesters toward the Computer Programmer diploma.
+
+  # Achievements
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: 110yards.ca
+        content: A free and open source CFL (Canadian Football League) fantasy football game powered by the CFL's official API.
+        image: /img/110yards.png
+        featured:
+          name: Play
+          link: https://110yards.ca/
+        badges:
+          - "Python"
+          - "Vue"
+          - "Firebase"
+          - "Open Source"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/mdryden/110yards
+          # - icon: fa fa-globe
+          #   url: https://110yards.ca/
+
+      - title: Empire
+        content: A simple, lightweight state management library for Flutter.
+        image: /img/empire.png
+        featured:
+          name: I was on a podcast!
+          link: https://podcasts.apple.com/us/podcast/empire-flying-high-with-flutter-80/id1562119447
+        badges:
+          - "Dart"
+          - "Flutter"
+          - "Open Source"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/strivesolutions/flutter_empire
+
+          - icon: fa fa-cube
+            url: https://pub.dev/packages/empire
+
+      - title: cflstats.ca
+        content: An independent stats website for fans of the CFL.
+        image: /img/cflstats.png
+        featured:
+          name: View Site
+          link: https://cflstats.ca
+        badges:
+          - "Python"
+          - "NuxtJS"
+          - "CockroachDB"
+
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: If you've got a project idea, feedback, or just want to chat about something, please reach out.
+    btnName: Email me
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: mayznabw
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/mdryden
+      linkedin: https://www.linkedin.com/in/michael-dryden-b66808227/
+      mastodon: https://fosstodon.org/@mdryden
+      facebook: https://facebook.com/michaeldryden
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
