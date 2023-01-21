@@ -1,3 +1,5 @@
+[![Deploy](https://github.com/mdryden/dryden.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/mdryden/dryden.dev/actions/workflows/deploy.yml)
+
 # dryden.dev
 
 The source which drives my personal profile site at [dryden.dev](https://dryden.dev), and perhaps a good example of how you can generate and deploy a static site built with Hugo using GitHub Actions and Google Cloud Storage.
