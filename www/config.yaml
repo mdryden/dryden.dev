@@ -146,9 +146,9 @@ params:
     content: |-
       I am a full stack developer living in Brandon, Manitoba, Canada.  I have a passion for building software and I love to find ways to use my hobbies to build my skills.
 
-      I am currently working at [Strive Business Solutions](https://www.strivebusiness.ca/) as a Software Architect.      
+      I am currently working at [Ellement Consulting Group](https://www.ellement.ca/) as a Software Architect.
 
-      I run the only head to head fantasy football site for the Canadian Football League, used by a growing group of passionate CFL fans.
+      I run the only head-to-head fantasy football site for the Canadian Football League, used by a growing group of passionate CFL fans.
     skills:
       enable: true
       title: "I'm currently working on projects that use the following technologies:"
@@ -166,8 +166,8 @@ params:
     # title: "Custom Name"
     items:
       - job: "Software Architect"
-        company: "Strive Business Solutions"
-        companyUrl: "https://www.strivebusiness.ca/"
+        company: "Ellement Consulting Group (formerly Strive Business Solutions)"
+        companyUrl: "https://www.ellement.ca/"
         date: "Feb 2022 - present"
         featuredLink:
           enable: true
@@ -176,12 +176,13 @@ params:
         info:
           enable: false
         content: |
-          I am currently working remotely as a Software Architect at [Strive Business Solutions](https://www.strivebusiness.ca/), based in Winnipeg, Manitoba. I am involved in a variety of projects, including a mobile app for the energy sector, a client portal for financial customers, and several open source libraries.
+          I am currently working remotely as a Software Architect at [Ellement Consulting Group](https://www.ellement.ca/), based in Winnipeg, Manitoba. I am involved in a variety of projects, including a mobile app for the energy sector, a client portal for financial customers, and several open source libraries.
 
           - Go, Python & C#
           - Flutter
           - Azure, Kubernetes and Dapr
-          - Architected and implemented a continuously deployed microservices application using GitHub Actions, Octopus Deploy and AKS
+          - Microservices
+          - Continous deployment pipelines
 
       - job: "Software Development Manager"
         company: "Rimmer Technology Partners"
@@ -198,7 +199,7 @@ params:
           - .Net desktop application
           - Flutter mobile application
           - Python, JavaScript and C# services in Google Cloud Platform
-          - Matured DevOps practices including implementation of CI/CD using GitHub Actions and Google Clodu Build
+          - Matured DevOps practices including implementation of CI/CD using GitHub Actions and Google Cloud Build
 
       - job: "Software Developer"
         company: "Custom Software Solutions"

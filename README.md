@@ -31,3 +31,7 @@ I called mine GCP_SERVICE_ACCOUNT_KEY. You can call your secret whatever you wan
 7. Update deploy.yml with the correct bucket name.
 
 In theory, that's it. If your DNS is resolving to your bucket, every commit to main which includes changes in the www folder should trigger a redeploy to GCP.
+
+## Running locally
+
+If you want to run this site locally, you'll need to have Hugo installed. Once you do, you can run `hugo server` from the root of the repository, and then navigate to `http://localhost:1313` in your browser.
