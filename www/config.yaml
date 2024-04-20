@@ -144,9 +144,9 @@ params:
     title: "About Me"
     image: "/img/dryden.dev-logo.png"
     content: |-
-      I am a full stack developer living in Brandon, Manitoba, Canada.  I have a passion for building software and I love to find ways to use my hobbies to build my skills.
+      I am a software architect and entrepreneur living in Brandon, Manitoba, Canada.  I have a passion for building software and I love to find ways to use my hobbies to build my skills.
 
-      I am currently working at [Ellement Consulting Group](https://www.ellement.ca/) as a Software Architect.
+      I am the co-founder of [Third Version Technology](https://thirdversion.ca/), a startup that offers custom software development and technology consulting.
 
       I run the only head-to-head fantasy football site for the Canadian Football League, used by a growing group of passionate CFL fans.
     skills:
@@ -165,10 +165,21 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Co-Founder"
+        company: "Third Version Technology"
+        companyUrl: "https://thirdversion.ca/"
+        date: "Mar 2024 - present"
+        info:
+          enable: false
+        content: |
+          I am the co-founder of [Third Version Technology](https://thirdversion.ca/), a Manitoba startup which offers custom software development and technology consulting.
+
+          We have clients in the energy sector and financial services.
+
       - job: "Software Architect"
-        company: "Ellement Consulting Group (formerly Strive Business Solutions)"
+        company: "Ellement Consulting Group"
         companyUrl: "https://www.ellement.ca/"
-        date: "Feb 2022 - present"
+        date: "Feb 2022 - March 2024"
         featuredLink:
           enable: true
           name: "Empire (Flutter)"
@@ -176,7 +187,7 @@ params:
         info:
           enable: false
         content: |
-          I am currently working remotely as a Software Architect at [Ellement Consulting Group](https://www.ellement.ca/), based in Winnipeg, Manitoba. I am involved in a variety of projects, including a mobile app for the energy sector, a client portal for financial customers, and several open source libraries.
+          Software Architect at [Ellement Consulting Group](https://www.ellement.ca/), based in Winnipeg, Manitoba. I was involved in a variety of projects, including a mobile app for the energy sector, a client portal for financial customers, and several open source libraries.
 
           - Go, Python & C#
           - Flutter
@@ -240,8 +251,7 @@ params:
           name: "Fanshawe College"
           url: "https://www.fanshawec.ca/"
         date: "2004 - 2006"
-        content: |-
-          Attended three of four semesters toward the Computer Programmer diploma.
+        content: ""
 
   # Achievements
   # achievements:

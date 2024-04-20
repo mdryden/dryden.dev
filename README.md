@@ -34,4 +34,4 @@ In theory, that's it. If your DNS is resolving to your bucket, every commit to m
 
 ## Running locally
 
-If you want to run this site locally, you'll need to have Hugo installed. Once you do, you can run `hugo server` from the root of the repository, and then navigate to `http://localhost:1313` in your browser.
+If you want to run this site locally, you'll need to have Hugo installed. Once you do, you can run `hugo server` from the www folder, then navigate to `http://localhost:1313` in your browser.
